@@ -643,8 +643,8 @@ class for_customers:
             messagebox.showerror("Error", "Invalid CVV", parent=self.root)
         else:
             self.textarea.insert(END, "\t\tMeytal Store")
-            self.textarea.insert(END, "\n\tBrenner 1, Bat Yam, Israel")
-            self.textarea.insert(END, "\n\t\t+972558852202")
+            self.textarea.insert(END, "\n\tSome Address")
+            self.textarea.insert(END, "\n\t\tSome Phone")
             self.textarea.insert(END, "\n\tDate: " + datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
             self.textarea.insert(END, "\n*****************************************")
             self.var_bill_number = random.randint(1000, 999999)
